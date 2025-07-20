@@ -1,0 +1,30 @@
+.projects {
+  background-color: #e9f5ea;
+  padding: 25px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.projects h2 {
+  color: #2e7d32;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projects li {
+  background: #fff;
+  border-left: 4px solid #66bb6a;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+.projects li:hover {
+  background: #f1fdf2;
+}
